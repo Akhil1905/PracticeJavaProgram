@@ -8,8 +8,8 @@ public class Mainclass {
      Location location=		new Location("123", "STORE");
 		
 	  Response<Location> responselocation= new Response<Location>();
-//	  responselocation.setResponse(location);
-//	  responselocation.status=200;
+	  responselocation.setResponse(location);
+	  responselocation.status=200;
 	  
 		  System.out.println(responselocation);
 
